@@ -4,11 +4,11 @@
 
 (def kafka-brokers
   ;;your kafka brokers in your cluster
-  ["127.0.0.1:9092"])
+  ["n1:9092" "n2:9092" "n3:9092" "n4:9092" "n5:9092"])
 
 (def zookeeper-servers
   ;;your zk servers in your cluster
-  ["127.0.0.1:2181"])
+  ["n1:2181" "n2:2181" "n3:2181" "n4:2181" "n5:2181"])
 
 (def is-secure? false)
 
